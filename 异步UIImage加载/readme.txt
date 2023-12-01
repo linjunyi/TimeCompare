@@ -1,0 +1,1 @@
+iOS文档中imageNamed:是线程安全的，但是实际使用global队列异步使用时，偶现闪退和图片加载空白。故此测试数据是使用imageWithContentOfFiles:。
